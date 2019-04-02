@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+    *{
+      margin:0px 0px;
+      padding:0px 0px;
+    }
+    ul{
+      list-style:none;
+    }
+    nav{
+      width:500px;
+      margin:10px auto;
+      box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+    }
+    a{
+      text-decoration:none;
+      color:#333;
+    }
+    nav>ul>li{
+      float:left;
+      position:relative;
+    }
+    nav>ul>li:hover .child{
+      display:block;
+    }
+    nav::after{
+      content:'';
+      display:block;
+      clear:both;
+    }
+    nav a{
+      padding:15px;
+      display:inline-block;
+    }
+    nav a:hover{
+      color:#fff;
+      background:rgba(0,0,0,0.5);
+    }
+    nav .child{
+       position: absolute;
+       box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+      top:100%;
+      display:none;
+    }
+    .child>li>a{
+      width:90px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+       <li><a href="#">首页</a></li>
+       <li><a href="#">作品</a></li>
+       <li>
+         <a href="#">更多</a>
+       <ul class="child">
+       <li><a href="#">前端</a></li>
+       <li><a href="#">后端</a></li>
+       <li><a href="#">移动端</a></li>
+       </ul>
+       </li>
+     </ul>
+  </nav>
+     
+</body>
+</html>
