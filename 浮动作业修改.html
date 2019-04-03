@@ -19,69 +19,50 @@
      h2{
         float: right;
     }
-    .clearfix::before{
-      display:block;
-      content:'';
-      clear:both;
-    }
-    li{
-      list-style:none;
-      width:600px;
-      color:white;
-      border-radius: 5px;
-      box-shadow: 0px 1px 2px 2px rgba(41, 40, 40, 0.4);
-    }
-    .one{
-      margin-left:auto;
-      margin-right:auto;
+    .box1{
       background-color: #4caf50;
-      position:relative;
     }
-    .two,.three,.four{
-      position:relative;
-      margin-left:auto;
-      margin-right:auto;
-       top:0;
-       margin-top: 30px;
-    }
-    .two{
+    .box2{
       background-color:#2196f3;
-    
     }
-    .three{
-       
+    .box3{
       background-color: #f44336;
-      
     }
-     .four{
-      
-       background-color: #ff9800;
+    .box4{
+      background-color: #ff9800;
+    }
+    .box1,.box2,.box3,.box4{
+      width: 600px;
+      margin-left:auto;
+      margin-right: auto;
+      margin-top: 20px;
+      color: aliceblue;
+      border-radius: 5px;
+      padding: 10px;
     }
   </style>
 <body>
 <div class="nav">
-  <ul class="clearfix">
-    <li class="one">
+    <div class="box1">
       <h2>x</h2>
       <h1>恭喜你</h1>
       <h3>获得本周学霸，继续加油吧</h3>
-    </li>
-     <li class="two">
+    </div>
+     <div class="box2">
       <h2>x</h2>
       <h1>通知</h1>
       <h3>晚上上课，不要忘了</h3>
-    </li>
-    <li class="three">
+     </div>
+    <div class="box3">
       <h2>x</h2>
       <h1>天啊</h1>
       <h3>竟然几天没做任务</h3>
-    </li>
-    <li class="four">
+    </div>
+    <div class="box4">
       <h2>x</h2>
       <h1>警告</h1>
       <h3>学如逆水行舟，不进则退</h3>
-    </li>
-  </ul>
+    </div>
 </div>
 </body>
 </html>
