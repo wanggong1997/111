@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> 不定宽高的块在浏览器窗口水平垂直居中</title>
+  <style>
+    .dialog{
+      position:absolute;
+      left:50%;
+      top:50%;
+      box-shadow:0px 0px 3px #000;
+      transform:translate(-50%,-50%)/* 当宽高不固定是需要元素水平垂直居中 */
+      border-
+    }
+    .dialog .header{
+      padding:10px;
+      background: #000;
+      color:#fff;
+    }
+    .dialog .content{
+      padding:10px;
+    }
+  </style>
+</head>
+<body>
+<div class="dialog">
+<div class="header">我是标题</div>
+  <div class="content">我是内容</div>
+</div>
+</body>
+</html>
