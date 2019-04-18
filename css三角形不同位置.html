@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+    .trangle_1{
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid gray;
+  width:0;
+  margin-left: 5px;
+}
+.box_1{
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+}
+.trangle_2{
+  width: 0;
+  height: 0;
+  border-top: 15px solid red;
+  border-left: 15px solid transparent;
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 86px;
+    
+}
+.box_2{
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+  margin-top: 10px;
+}
+.trangle_3{
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid black; 
+ margin-left: 5px;
+}
+.trangle_4{
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid #fff; 
+position: absolute;
+margin-top: -9px;
+margin-left: 5px;
+}
+.box_3{
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+}
+.layout_3{
+  margin-top: 5px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="layout_1">
+   <div class="trangle_1"></div>
+  <div class="box_1"></div>
+  </div>
+  <div class="layout_2">
+   <div class="trangle_2"></div>
+  <div class="box_2"></div>
+  </div>
+   <div class="layout_3">
+   <div class="trangle_3"></div>
+     <div class="trangle_4"></div> <!-- 透明三角两个叠加达到效果 -->
+  <div class="box_3"></div>
+  </div>
+</body>
+</html>
