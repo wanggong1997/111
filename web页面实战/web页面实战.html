@@ -146,8 +146,73 @@
 </main>
 <footer>
     <section>
-        <h2>LATEST NEWS</h2>
-        <p>Octane has joined the Apex Games, and he’s got a jump on the competition.</p>
+        <h2>此为测试网页</h2>
+        <p>下方为测试表单.</p>
+        <div class="opinion clearfix">
+            <div class="Selection-box"> <!-- 选择栏 -->
+                <form action="http://192.168.1.3:8080">
+                    <ul>
+                        <li>
+                            <div class="username">
+                                <label for="text">昵称:</label>
+                                <input id="text" type="text" name="username">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="password">
+                                <label for="password">密码:</label>
+                                <input id="password" type="password" name="password">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sex">
+                                <label for="sex">性别：</label>
+                                <input type="radio" name="sex" id="sex">男生
+                                <input type="radio" name="sex" id="sex">女生
+                            </div>
+                        </li>
+                        <li>
+                            <div class="hobby">
+                                <label>喜欢的枪类(多选项)：</label>
+                                <input type="checkbox" name="hobby" value="rifle">步枪
+                                <input type="checkbox" name="hobby" value="Submachine-gun">冲锋枪
+                                <input type="checkbox" name="hobby" value="Shotgun">霰弹枪
+                                <input type="checkbox" name="hobby" value="Sniper-rifle">狙击步枪
+                            </div>
+                        </li>
+                        <li>
+                            <div class="hobby">
+                                <label>喜欢的模式(多选项)：</label>
+                                <input type="checkbox" name="hobby-mode" value="Multiplayer">多人混战
+                                <input type="checkbox" name="hobby-mode" value="Team-battle">小队团战
+                                <input type="checkbox" name="hobby-mode" value="Personal-warfare">个人战
+                                <input type="checkbox" name="hobby-mode" value="Adventure-mode">冒险模式
+                            </div>
+                        </li>
+                        <li>
+                            <div class="hobby">
+                                <label>喜欢的角色(单选项)：</label>
+                                <input type="radio" name="hobby-person" value="Multiplayer">恶灵
+                                <input type="radio" name="hobby-person" value="Team-battle">烟妹
+                                <input type="radio" name="hobby-person" value="Personal-warfare">渣男
+                                <input type="radio" name="hobby-person" value="Adventure-mode">毒男
+                                <input type="radio" name="hobby-person" value="Adventure-mode">奶妈
+                                <input type="radio" name="hobby-person" value="Adventure-mode">幻象
+                            </div>
+                        </li>
+                        <li>
+                            <div class="hobby">
+                                <label for="like">是否会向周围人推荐(单选项)：</label>
+                                <input type="radio" name="hobby-like" value="yes" id="like">十分愿意
+                                <input type="radio" name="hobby-like" value="maybe">可能会
+                                <input type="radio" name="hobby-like" value="no">从不
+                            </div>
+                        </li>
+                    </ul>
+                    <button id="mark">提交</button>
+                </form>
+            </div>
+        </div>
     </section>
 </footer>
 </body>

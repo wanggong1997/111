@@ -162,4 +162,37 @@ section > p{
     margin: 0 auto;
     margin-top:150px;
 }
-
+.opinion{
+    width: 700px;
+    height: 500px;
+    margin: 100px auto 100px auto;
+}
+.username,
+.password,
+.hobby,
+.sex  {
+    margin:10px 0 10px 0;
+    color: aliceblue;
+}
+/* 选择栏 */
+.Selection-box{
+    width: 700px;
+    height: 100%;
+    background: #1b1a1a87;
+    
+    float: left;
+}
+.Selection-box  li{
+    margin-top: 25px;
+    float: left;
+    margin-right: 200px;
+}
+#mark{
+    height: 40px;
+    position: absolute;
+    padding: 5px 30px 5px 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-top:460px;
+    margin-left: 45px;
+}
